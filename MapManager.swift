@@ -348,7 +348,7 @@ class MapManager: NSObject{
             
             var dlat = 0
             
-            if((result & 1) == true){
+            if((result & 1) == 1){
                 
                 dlat = ~(result >> 1)
             }else{
@@ -370,7 +370,7 @@ class MapManager: NSObject{
             
             var dlng = 0
             
-            if((result & 1) == true){
+            if((result & 1) == 1){
                 
                 dlng = ~(result >> 1)
             }else{
